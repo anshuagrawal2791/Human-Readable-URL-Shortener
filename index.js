@@ -22,18 +22,18 @@ app.get('/new/*', (req, res) => {
         res.send(400, 'invalid url');
     else {
         // check if custom code is provided
-        if (url.indexOf('code') != -1) {
+        if (url.lastIndexOf('code') != -1) {
 
             // if provided, extract the code
-            customCode = url.substring(url.indexOf('code')).split('=')[1];
+            customCode = url.substring(url.lastIndexOf('code')).split('=')[1];
             //remove code from url
-            url = url.substring(0, url.indexOf('code') - 1);
+            url = url.substring(0, url.lastIndexOf('code') - 1);
 
         }
         createUrl(url, customCode, req, (err, data) => {
             if (err) {
                 // if code already exists
-                res.status(400);
+                res.status(401);
                 res.send('Code provided already exists. Please try with another code');
             } else {
                 var response = {};
