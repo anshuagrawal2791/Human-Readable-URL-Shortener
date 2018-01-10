@@ -3,7 +3,7 @@
 > Instantly create custom shortened urls from anywhere 
 
 
-URL Shortener is a NodeJS based RESTful API that allows you to provide a long, cumbersome link to be returned as a convenient six digit URL. The shortened URL will redirect to the page provided by the original link. 
+URL Shortener is a NodeJS based RESTful API that allows you to provide a long, cumbersome link to be returned as a convenient and custom URL. The shortened URL will redirect to the page provided by the original link. 
 
 
 ## Public API
