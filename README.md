@@ -1,6 +1,6 @@
 # Human-Readable-URL-shortener
 
-> Instantly create cool shortened urls from anywhere 
+> Instantly create custom shortened urls from anywhere 
 
 
 
