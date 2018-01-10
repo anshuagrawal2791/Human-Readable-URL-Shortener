@@ -50,7 +50,7 @@ $ curl -i https://a-ag.glitch.me/new/https://www.youtube.com/watch?v=Vfpa6toNM6E
 ```
 With custom code
 ```sh
-$ curl -i https://a-ag.glitch.me/new/https://www.youtube.com/watch?v=Vfpa6toNM6E?code=fav_song/?code=my_fav_song
+$ curl -i https://a-ag.glitch.me/new/https://www.youtube.com/watch?v=Vfpa6toNM6E/?code=my_fav_song
 > HTTP/1.1 200 Connection Established
 > Proxy-Agent: IWSS
 > Date: Wed, 10 Jan 2018 10:41:24 GMT
@@ -63,7 +63,7 @@ $ curl -i https://a-ag.glitch.me/new/https://www.youtube.com/watch?v=Vfpa6toNM6E
 > x-powered-by: Express
 > etag: W/"76-1TkqKMvY3lsM1sU6caDFTJATsfM"
 
-> {"original_url":"https://www.youtube.com/watch?v=Vfpa6toNM6E?code=fav_song/","short_url":"a-ag.glitch.me/my_fav_song"}
+> {"original_url":"https://www.youtube.com/watch?v=Vfpa6toNM6E/","short_url":"a-ag.glitch.me/my_fav_song"}
 
 ```
 ## Development
