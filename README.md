@@ -22,7 +22,7 @@ To generate url with your own code: `GET /new/{url}/?code={your_code}`
 **Response:** 
 
 
-`200: application/json` with the keys `original_url` and `shortened-url`
+`200: application/json` with the keys `original_url` and `short-url`
 
 `400 : Original url is invalid`
 
