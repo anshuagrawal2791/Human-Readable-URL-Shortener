@@ -9,7 +9,7 @@
 
 ### GET endpoint
 **Base URL:** a-ag.glitch.me
-**Endpoint:** GET /get/{rollNumber}
+**Endpoint:** GET /get/{url}
 
 **Response:** 
 
