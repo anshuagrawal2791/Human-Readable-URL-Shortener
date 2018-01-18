@@ -73,7 +73,7 @@ To run this locally:
 ```sh
 $ clone the repository
 $ npm install
-$ cp .env.template .env
+$ cp .env_template .env
 # populate .env with the appropriate values
 $ node index.js
 ```
